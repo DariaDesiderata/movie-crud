@@ -1,0 +1,39 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Waking life",
+      "director": "Richard Linklater",
+      "rating": 5,
+      "posterURL": "http://www.imdb.com/title/tt0243017/mediaviewer/rm3711736832"
+    },
+    {
+      "id": 2,
+      "title": "Amelie",
+      "director": "Jean-Pierre Jeunet",
+      "rating": 5,
+      "posterURL": "http://www.imdb.com/title/tt0211915/mediaviewer/rm2806715392"
+    },
+    {
+      "id": 3,
+      "title": "American Psycho",
+      "director": "Mary Harron",
+      "rating": 3,
+      "posterURL": "http://www.imdb.com/title/tt0144084/mediaviewer/rm3262632960"
+    },
+    {
+      "id": 4,
+      "title": "Requiem for a Dream",
+      "director": "Darren Aronofsky",
+      "rating": 4,
+      "posterURL": "http://www.imdb.com/title/tt0180093/mediaviewer/rm3305703424"
+    },
+    {
+      "id": 5,
+      "title": "Moonrise Kingdom",
+      "director": "Wes Andersen",
+      "rating": 5,
+      "posterURL": "http://www.imdb.com/title/tt1748122/mediaviewer/rm383169536"
+    }
+  ]
+}
