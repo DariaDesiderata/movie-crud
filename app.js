@@ -10,3 +10,5 @@ app.use('/', routes)
 app.listen(port, function() {
   console.log(`Server listening on port ${port}`);
 })
+
+app.use('./movies', express.static(__dirname + "./public"))

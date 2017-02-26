@@ -1,0 +1,9 @@
+.list-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsla(213, 100%, 76%, 1);
+  align-self: center;
+}
+.movie-list {
+  background-color: hsla(218, 4%, 80%, 1)
+}
