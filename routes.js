@@ -28,6 +28,10 @@ router.get('/edit/:id', (req, res) => {
   res.sendFile(path.join(__dirname + '/public/edit.html'))
 })
 
+router.get('/show/:id', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/show.html'))
+})
+
 router.post('/movies', (req, res) => {
   db.get('movies')
     .push(req.body)

@@ -4,19 +4,45 @@
   background-color: hsla(235, 100%, 93%, 1);
   align-self: center;
 }
+.nav-wrapper {
+  padding: 5px 0 5px 20px;
+}
+body {
+  background-color: hsla(246, 50%, 93%, 0.63);
+}
 .movie-list {
-  background-color: hsla(246, 50%, 93%, 0.63)
+  padding: 50px;
+}
+.img-container {
+  margin: 20px;
 }
 .new {
   margin-top: 25px;
 }
+
+.page-footer {
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-footer.relative {
+  position: relative;
+  bottom: 0;
+}
 .button {
   color:inherit;
 }
+
 .landing {
-  background-image: radial-gradient(hsla(193, 100%, 50%, 1), white);
-  height: 400px;
-  width: 100%
+  margin-top: 25px;
+  background-image: url("./wes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 75vh;
 }
 .poster {
   height: 400px;
@@ -24,4 +50,19 @@
 }
 .container {
   margin: 50px;
+}
+
+.img-container {
+  padding: 20px;
+}
+.goto {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: hsla(21, 72%, 82%, 0.9);
+}
+
+.goto-link {
+  color: inherit;
 }

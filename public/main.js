@@ -4,7 +4,7 @@ function createMovies(movies) {
   movies.forEach((movie, i) => {
     $movieTable.append(
       `<tr class="movieDetails" id="${i}">
-      <td class="title">${movie.title}</td>
+      <td class="title"><a href="/show/${movie.title}">${movie.title}</a></td>
       <td class="director">${movie.director}</td>
       <td class="year">${movie.year}</td>
       <td class="rating">${movie.rating}</td>
@@ -22,7 +22,8 @@ $newMovieButton.on('click', function() {
     title: $('#title').val(),
     director: $('#director').val(),
     year: $('#year').val(),
-    rating: $('#rating').val()
+    rating: $('#rating').val(),
+    posterURL: $('#url').val()
   }
 
   $.ajax("/movies", {
@@ -64,8 +65,8 @@ function deleteMovie() {
       })
       .then($currentTr.remove())
   })
-
 }
+
 $.get("/movies")
   .then(createMovies)
   .then(editMovie)

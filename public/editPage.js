@@ -28,7 +28,7 @@ $(document).ready(function() {
       $.ajax(url, {
       method: "PUT",
       contentType: "application/json",
-      data: changedMovie,
+      data: JSON.stringify(changedMovie),
       success: function() {
         console.log("Success");
         }
