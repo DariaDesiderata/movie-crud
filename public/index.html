@@ -5,18 +5,18 @@
     <title>Movie rating list</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../main.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
   </head>
   <body>
     <nav>
       <div class="nav-wrapper">
-         <a href="home.html" class="brand-logo">Movie rating list</a>
+         <a href="landing.html" class="brand-logo">Daria's favorite movies</a>
       </div>
     </nav>
     <div class="main row">
         <div class="list-header">
         <h3>All Movies</h3>
-        <button class="new btn waves-effect waves-light align-center" type="submit" name="action">New Movie</button>
+        <button class="new btn waves-effect waves-light align-center" type="submit" name="action"><a class='button' href="./newMovie.html">New Movie</a></button>
         </div>
         <div class="movie-list">
         <table class="movie-table">
@@ -31,14 +31,6 @@
             </tr>
           </thead>
           <tbody>
-            <tr class="movieDetails">
-              <td class="title"></td>
-              <td class="director"></td>
-              <td class="year"></td>
-              <td class="rating"></td>
-              <td class="delete"></td>
-              <td class="edit"></td>
-            </tr>
         </tbody>
         </table>
       </div>
@@ -47,6 +39,6 @@
     integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-    <script src="../main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

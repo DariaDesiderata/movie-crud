@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie rating site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../main.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+         <a href="landing.html" class="brand-logo">Daria's favorite movies</a>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class='img-container'><img class="poster" src=""/></div>
+          <form class="edit-movie-form col s6">
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Title" id="title" type="text" disabled>
+                <label class="active" for="title">Title</label>
+              </div>
+              <div class="input-field col s12">
+                <input placeholder="Director" id="director" type="text">
+                <label class="active" for="director">Director</label>
+              </div>
+              <div class="input-field col s12">
+                <input placeholder="Year" id="year" type="text">
+                <label class="active" for="year">Year</label>
+              </div>
+              <div class="input-field col s3">
+                <input input placeholder="" id="rating" type="number" min="1" max="5">
+                <label class="active" for="rating">Rating</label>
+              </div>
+              <div class="input-field col s12">
+                <input input placeholder="" id="url" type="url">
+                <label class="active" for="url">Poster URL</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light col s6 edit-movie" type="button" name="action">Edit Movie</button>
+          </form>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+      <script src="/editPage.js"></script>
+    </body>
+  </html>

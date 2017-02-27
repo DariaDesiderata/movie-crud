@@ -1,9 +1,27 @@
 .list-header {
   display: flex;
   justify-content: space-around;
-  background-color: hsla(213, 100%, 76%, 1);
+  background-color: hsla(235, 100%, 93%, 1);
   align-self: center;
 }
 .movie-list {
-  background-color: hsla(218, 4%, 80%, 1)
+  background-color: hsla(246, 50%, 93%, 0.63)
+}
+.new {
+  margin-top: 25px;
+}
+.button {
+  color:inherit;
+}
+.landing {
+  background-image: radial-gradient(hsla(193, 100%, 50%, 1), white);
+  height: 400px;
+  width: 100%
+}
+.poster {
+  height: 400px;
+  width: auto;
+}
+.container {
+  margin: 50px;
 }
